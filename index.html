@@ -1,133 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../goit-markup-hw-02/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WebStudio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../goit-markup-hw-02/css/styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-  <title>WebStudio</title>
-</head>
-
-<body>
-  <header>
-
-    <nav>
-      <a class="logo  link" href="../goit-markup-hw-02/index.html"><span class="logo-color1">Web</span><span
-          class="logo-header">Studio</span></a>
-      <ul>
-        <li><a class="link navigation" href="agencja">Agencja</a></li>
-        <li><a class="link navigation" href="../goit-markup-hw-02/portfolio.html">Porfolio</a></li>
-        <li><a class="link navigation" href="kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
-    <ul>
-      <li><a class="link header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="link header-contacts" href="tel:48111111111">+48 111 111 111</a></li>
-    </ul>
-  </header>
-
-  <main>
-    <section class="first-section">
-      <h1>efektywne rozwiązania <br> dla waszwgo biznesu</h1>
-      <button class="main-page-button" type="button">Zamów usługę</button>
-    </section>
-
-    <section>
-      <ul>
-        <li class="paragraphs">
-          <h3>lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </p>
-        </li>
-        <li class="paragraphs">
-          <h3>lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </p>
-        </li>
-        <li class="paragraphs">
-          <h3>lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </p>
-        </li>
-        <li class="paragraphs">
-          <h3>lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </p>
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Czym się zajmujemy</h2>
-      <ul>
+  <body>
+    <header>
+      <nav>
+        <a class="logo link" href="./index.html"
+          >Web<span class="header_logo">Studio</span></a
+        >
+        <ul class="header_menu">
+          <li><a class="link header_menu-item" href="agencja">Agencja</a></li>
+          <li>
+            <a class="link header_menu-item" href="./portfolio.html"
+              >Porfolio</a
+            >
+          </li>
+          <li><a class="link header_menu-item" href="kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <ul class="header_contacts">
         <li>
-          <img src="../goit-markup-hw-01/images/box1.jpg" alt="Programista koduje" width="370" height="294" />
+          <a class="link header_contacts-item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <img src="../goit-markup-hw-01/images/box2.jpg" alt="Pogramista pisze aplikacje na telefon" width="370"
-            height="294" />
-        </li>
-        <li>
-          <img src="../goit-markup-hw-01/images/box3.jpg" alt="Programista używa aplikacji" width="370" height="294" />
+          <a class="link header_contacts-item" href="tel:48111111111"
+            >+48 111 111 111</a
+          >
         </li>
       </ul>
-    </section>
+    </header>
 
-    <section class="team-list">
-      <h2>Nasz zespół</h2>
-      <ul>
-        <li class="team">
-          <img src="../goit-markup-hw-01/images/img1.jpg" alt="Product Designer osobiście" width="270" height="260" />
-          <h3>John Doe</h3>
-          <p>Product Designer</p>
-        </li>
-        <li class="team">
-          <img src="../goit-markup-hw-01/images/img2.jpg" alt="Frontend Developer osobiście" width="270" height="260" />
-          <h3>John Doe</h3>
-          <p>Frontend Developer</p>
-        </li>
-        <li class="team">
-          <img src="../goit-markup-hw-01/images/img3.jpg" alt="John Doe odpoweidzialny za marketing osobiście"
-            width="270" height="260" />
-          <h3>John Doe</h3>
-          <p>Marketing</p>
-        </li>
-        <li class="team">
-          <img src="../goit-markup-hw-01/images/img4.jpg" alt="UI Designer osobiście" width="270" height="260" />
-          <h3>John Doe</h3>
-          <p>UI Designer</p>
-        </li>
-      </ul>
-    </section>
-  </main>
+    <main>
+      <section class="section_first">
+        <h1>
+          efektywne rozwiązania <br />
+          dla waszwgo biznesu
+        </h1>
+        <button class="main_page-button" type="button">Zamów usługę</button>
+      </section>
 
-  <footer class="footer-background">
-    <a class="logo link" href="WebStudio"><span class="logo-color1">Web</span><span
-        class="logo-footer">Studio</span></a>
-    <address>
-      <ul>
-        <li>
-          <a class="link navi-footer" href="https://goo.gl/maps/jp3QV2B9B6zz9JZ26">m. Warszawa, Aleje Jerozolimskie
-            21</a>
-        </li>
-        <li><a class="link footer-address" href=" mailto:info@example.com">info@example.com</a></li>
-        <li><a class="link footer-address" href="tel:48111111111">+48 111 111 111</a></li>
-      </ul>
-    </address>
-  </footer>
-</body>
+      <section>
+        <ul>
+          <li class="paragraphs">
+            <h3>lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="paragraphs">
+            <h3>lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="paragraphs">
+            <h3>lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="paragraphs">
+            <h3>lorem ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+        </ul>
+      </section>
 
+      <section>
+        <h2 class="section_header">Czym się zajmujemy</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/box1.jpg"
+              alt="Programista koduje"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/box2.jpg"
+              alt="Pogramista pisze aplikacje na telefon"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/box3.jpg"
+              alt="Programista używa aplikacji"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="section_cards">
+        <h2 class="section_header">Nasz zespół</h2>
+        <ul>
+          <li class="card">
+            <img
+              src="../goit-markup-hw-01/images/img1.jpg"
+              alt="Product Designer osobiście"
+              width="270"
+              height="260"
+            />
+            <h3 class="card_title">John Doe</h3>
+            <p class="card_subtitle">Product Designer</p>
+          </li>
+          <li class="card">
+            <img
+              src="./images/img2.jpg"
+              alt="Frontend Developer osobiście"
+              width="270"
+              height="260"
+            />
+            <h3 class="card_title">John Doe</h3>
+            <p class="card_subtitle">Frontend Developer</p>
+          </li>
+          <li class="card">
+            <img
+              src="./images/img3.jpg"
+              alt="John Doe odpoweidzialny za marketing osobiście"
+              width="270"
+              height="260"
+            />
+            <h3 class="card_title">John Doe</h3>
+            <p class="card_subtitle">Marketing</p>
+          </li>
+          <li class="card">
+            <img
+              src="./images/img4.jpg"
+              alt="UI Designer osobiście"
+              width="270"
+              height="260"
+            />
+            <h3 class="card_title">John Doe</h3>
+            <p class="card_subtitle">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer_background">
+      <a class="logo link" href="WebStudio"
+        >Web<span class="footer_logo">Studio</span></a
+      >
+      <address>
+        <ul>
+          <li>
+            <a
+              class="link footer_place"
+              href="https://goo.gl/maps/jp3QV2B9B6zz9JZ26"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
+            >
+          </li>
+          <li>
+            <a class="link footer_address" href=" mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="link footer_address" href="tel:48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>

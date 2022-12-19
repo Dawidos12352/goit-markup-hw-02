@@ -1,131 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../goit-markup-hw-02/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WebStudio-portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../goit-markup-hw-02/css/styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-  <title>WebStudio-portfolio</title>
-</head>
-
-<body>
-  <header>
-
-    <nav>
-      <a class="logo  link" href="../goit-markup-hw-02/index.html"><span class="logo-color1">Web</span><span
-          class="logo-header">Studio</span></a>
-      <ul>
-        <li><a class="link navigation" href="agencja">Agencja</a></li>
-        <li><a class="link navigation" href="../goit-markup-hw-02/portfolio.html">Porfolio</a></li>
-        <li><a class="link navigation" href="kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
-    <ul>
-      <li><a class="link header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="link header-contacts" href="tel:48111111111">+48 111 111 111</a></li>
-    </ul>
-  </header>
-
-  <main>
-    <ul>
-      <li><button type="button">Wszystkie</button></li>
-      <li><button type="button">Strony</button></li>
-      <li><button type="button">Aplikacje</button></li>
-      <li><button type="button">Dizajn</button></li>
-      <li><button type="button">Marketing</button></li>
-    </ul>
-    <ul class="galery">
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto1.jpg" alt="Laptop z włączoną platformą" width="370"
-          height="294" />
-        <h3 class="img-title">Technocrack</h3>
-        <p class="img-description">Strona internetowa</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto2.jpg" alt="Dwóch koszykarzy walczących o piłkę" width="370"
-          height="294" />
-        <h3 class="img-title">Grafika New Orlean vs Golden Star</h3>
-        <p class="img-description">Dizajn</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto3.jpg" alt="Logo restauracji The Seafood" width="370"
-          height="294" />
-        <h3 class="img-title">Restauracja Seafood</h3>
-        <p class="img-description">Aplikacja</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto4.jpg" alt="słuchawki nauszne" width="370" height="294" />
-        <h3 class="img-title">Projekt Prime</h3>
-        <p class="img-description">Marketing</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto5.jpg" alt="dwa kartony" width="370" height="294" />
-        <h3 class="img-title">Projekt Boxes</h3>
-        <p class="img-description">Aplikacja</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto6.jpg" alt="Monitor komputera z włączoną stroną internetową"
-          width="370" height="294" />
-        <h3 class="img-title">Inspiration has no Borders</h3>
-        <p class="img-description">Strona internetowa</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto7.jpg" alt="czasopismo z obrazkami" width="370"
-          height="294" />
-        <h3 class="img-title">Magazyn Limited Edition</h3>
-        <p class="img-description">Dizajn</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto8.jpg" alt="metkę LABELTAG" width="370" height="294" />
-        <h3 class="img-title">Projekt LAB</h3>
-        <p class="img-description">Marketing</p>
-
-      </li>
-      <li>
-
-        <img src="../goit-markup-hw-02/images/portfolio-foto9.jpg" alt="Laptop z włączoną stroną growing buisiness"
-          width="370" height="294" />
-        <h3 class="img-title">Growing Business</h3>
-        <p class="img-description">Aplikacja</p>
-
-      </li>
-    </ul>
-  </main>
-
-  <footer class="footer-background">
-    <a class="logo link" href="WebStudio"><span class="logo-color1">Web</span><span
-        class="logo-footer">Studio</span></a>
-    <address>
-      <ul>
+  <body>
+    <header>
+      <nav>
+        <a class="logo link" href="./index.html"
+          >Web<span class="header_logo">Studio</span></a
+        >
+        <ul class="header_menu">
+          <li><a class="link header_menu-item" href="agencja">Agencja</a></li>
+          <li>
+            <a class="link header_menu-item" href="./portfolio.html"
+              >Porfolio</a
+            >
+          </li>
+          <li><a class="link header_menu-item" href="kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <ul class="header_contacts">
         <li>
-          <a class="link navi-footer" href="https://goo.gl/maps/jp3QV2B9B6zz9JZ26">m. Warszawa, Aleje Jerozolimskie
-            21</a>
+          <a class="link header_contacts-item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li><a class="link footer-address" href=" mailto:info@example.com">info@example.com</a></li>
-        <li><a class="link footer-address" href="tel:48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="link header_contacts-item" href="tel:48111111111"
+            >+48 111 111 111</a
+          >
+        </li>
       </ul>
-    </address>
-  </footer>
-</body>
+    </header>
 
+    <main>
+      <ul>
+        <li><button type="button">Wszystkie</button></li>
+        <li><button type="button">Strony</button></li>
+        <li><button type="button">Aplikacje</button></li>
+        <li><button type="button">Dizajn</button></li>
+        <li><button type="button">Marketing</button></li>
+      </ul>
+      <ul class="gallery">
+        <li>
+          <img
+            src="./images/portfolio-photo1.jpg"
+            alt="Laptop z włączoną platformą"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Technocrack</h3>
+          <p class="product_description">Strona internetowa</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo2.jpg"
+            alt="Dwóch koszykarzy walczących o piłkę"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Grafika New Orlean vs Golden Star</h3>
+          <p class="product_description">Dizajn</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo3.jpg"
+            alt="Logo restauracji The Seafood"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Restauracja Seafood</h3>
+          <p class="product_description">Aplikacja</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo4.jpg"
+            alt="słuchawki nauszne"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Projekt Prime</h3>
+          <p class="product_description">Marketing</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo5.jpg"
+            alt="dwa kartony"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Projekt Boxes</h3>
+          <p class="product_description">Aplikacja</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo6.jpg"
+            alt="Monitor komputera z włączoną stroną internetową"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Inspiration has no Borders</h3>
+          <p class="product_description">Strona internetowa</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo7.jpg"
+            alt="czasopismo z obrazkami"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Magazyn Limited Edition</h3>
+          <p class="product_description">Dizajn</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo8.jpg"
+            alt="metkę LABELTAG"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Projekt LAB</h3>
+          <p class="product_description">Marketing</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio-photo9.jpg"
+            alt="Laptop z włączoną stroną growing buisiness"
+            width="370"
+            height="294"
+          />
+          <h3 class="product_name">Growing Business</h3>
+          <p class="product_description">Aplikacja</p>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="footer_background">
+      <a class="logo link" href="WebStudio"
+        >Web<span class="footer_logo">Studio</span></a
+      >
+      <address>
+        <ul>
+          <li>
+            <a
+              class="link footer_place"
+              href="https://goo.gl/maps/jp3QV2B9B6zz9JZ26"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
+            >
+          </li>
+          <li>
+            <a class="link footer_address" href=" mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="link footer_address" href="tel:48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>

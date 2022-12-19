@@ -1,41 +1,45 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+:root {
+  --active-color: #2196f3;
+  --brand-color1: #757575;
+  --brand-color2: #ffffff;
+  --background-color: #2f303a;
+}
+ul {
+  list-style: none;
 }
 .logo {
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: left;
+  color: var(--active-color);
 }
-.logo-color1 {
-  color: #2196f3;
-}
-.logo-header {
+.header_logo {
   color: #000000;
 }
-ul {
-  list-style: none;
-}
-nav > ul {
+
+.header_menu {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-contacts {
-  color: #757575;
+.header_contacts-item {
+  color: var(--brand-color1);
 }
-.navigation {
+.header_menu-item {
   color: #212121;
 }
 
 .link:hover,
 .link:focus,
 .link:active {
-  color: #2196f3;
+  color: var(--active-color);
 }
 .link {
   text-decoration: none;
@@ -45,7 +49,6 @@ button {
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
-  letter-spacing: 0.03em;
   background: #f5f4fa;
   border-style: hidden;
   border-radius: 4px;
@@ -54,14 +57,14 @@ button {
 button:hover,
 button:focus,
 button:active {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--active-color);
+  color: var(--brand-color2);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border-style: hidden;
 }
-.galery > li {
+.gallery > li {
   box-sizing: border-box;
 
   width: 370px;
@@ -69,51 +72,48 @@ button:active {
   left: 215px;
   top: 272px;
 
-  background: #ffffff;
+  background-color: var(--brand-color2);
   border: 1px solid #eeeeee;
 }
-.img-title {
+.product_name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.img-description {
+.product_description {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--brand-color1);
 }
-.footer-background {
-  background-color: #2f303a;
+.footer_background {
+  background-color: var(--background-color);
 }
-.logo-footer {
-  color: #ffffff;
+.footer_logo {
+  color: var(--brand-color2);
 }
 address > ul {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
-.footer-address {
+.footer_address {
   color: rgba(255, 255, 255, 0.6);
 }
-.navi-footer {
-  color: #ffffff;
+.footer_place {
+  color: var(--brand-color2);
 }
-.first-section {
-  background-color: #2f303a;
+.section_first {
+  background-color: var(--background-color);
 }
-.first-section > h1 {
+.section_first > h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--brand-color2);
 }
-.main-page-button {
+.main_page-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -125,38 +125,33 @@ address > ul {
 }
 .paragraphs > h3 {
   font-weight: 700;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .paragraphs > p {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--brand-color1);
 }
-h2 {
+.section_header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
-.team-list {
+.section_cards {
   background: #f5f4fa;
 }
-.team {
+.card {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-  background: #ffffff;
+  background-color: var(--brand-color2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team > h3 {
+.card_title {
   font-weight: 500;
 }
-.team > p {
-  color: #757575;
+.card_subtitle {
+  color: var(--brand-color1);
 }
