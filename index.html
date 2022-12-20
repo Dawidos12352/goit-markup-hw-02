@@ -15,29 +15,29 @@
   </head>
 
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="header__nav">
         <a class="logo link" href="./index.html"
-          >Web<span class="header_logo">Studio</span></a
+          >Web<span class="header__logo">Studio</span></a
         >
-        <ul class="header_menu">
-          <li><a class="link header_menu-item" href="agencja">Agencja</a></li>
+        <ul class="header__menu">
+          <li><a class="link header__menu-item" href="agencja">Agencja</a></li>
           <li>
-            <a class="link header_menu-item" href="./portfolio.html"
+            <a class="link header__menu-item" href="./portfolio.html"
               >Porfolio</a
             >
           </li>
-          <li><a class="link header_menu-item" href="kontakt">Kontakt</a></li>
+          <li><a class="link header__menu-item" href="kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="header_contacts">
+      <ul class="header__contacts">
         <li>
-          <a class="link header_contacts-item" href="mailto:info@devstudio.com"
+          <a class="link header__contacts-item" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="link header_contacts-item" href="tel:48111111111"
+          <a class="link header__contacts-item" href="tel:48111111111"
             >+48 111 111 111</a
           >
         </li>
@@ -45,40 +45,40 @@
     </header>
 
     <main>
-      <section class="section_first">
-        <h1>
+      <section class="banner">
+        <h1 class="banner__title">
           efektywne rozwiązania <br />
           dla waszwgo biznesu
         </h1>
-        <button class="main_page-button" type="button">Zamów usługę</button>
+        <button class="banner__btn" type="button">Zamów usługę</button>
       </section>
 
       <section>
-        <ul>
-          <li class="paragraphs">
-            <h3>lorem ipsum</h3>
-            <p>
+        <ul class="advantages">
+          <li class="advantage">
+            <h3 class="advantage__title">lorem ipsum</h3>
+            <p class="advantage__subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="paragraphs">
-            <h3>lorem ipsum</h3>
-            <p>
+          <li class="advantage">
+            <h3 class="advantage__title">lorem ipsum</h3>
+            <p class="advantage__subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="paragraphs">
-            <h3>lorem ipsum</h3>
-            <p>
+          <li class="advantage">
+            <h3 class="advantage__title">lorem ipsum</h3>
+            <p class="advantage__subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="paragraphs">
-            <h3>lorem ipsum</h3>
-            <p>
+          <li class="advantage">
+            <h3 class="advantage__title">lorem ipsum</h3>
+            <p class="advantage__subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -87,9 +87,9 @@
       </section>
 
       <section>
-        <h2 class="section_header">Czym się zajmujemy</h2>
-        <ul>
-          <li>
+        <h2 class="section__header">Czym się zajmujemy</h2>
+        <ul class="offices">
+          <li class="office">
             <img
               src="./images/box1.jpg"
               alt="Programista koduje"
@@ -97,7 +97,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="office">
             <img
               src="./images/box2.jpg"
               alt="Pogramista pisze aplikacje na telefon"
@@ -105,7 +105,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="office">
             <img
               src="./images/box3.jpg"
               alt="Programista używa aplikacji"
@@ -116,9 +116,9 @@
         </ul>
       </section>
 
-      <section class="section_cards">
-        <h2 class="section_header">Nasz zespół</h2>
-        <ul>
+      <section class="section__cards">
+        <h2 class="section__header">Nasz zespół</h2>
+        <ul class="cards">
           <li class="card">
             <img
               src="../goit-markup-hw-01/images/img1.jpg"
@@ -126,8 +126,8 @@
               width="270"
               height="260"
             />
-            <h3 class="card_title">John Doe</h3>
-            <p class="card_subtitle">Product Designer</p>
+            <h3 class="card__title">John Doe</h3>
+            <p class="card__subtitle">Product Designer</p>
           </li>
           <li class="card">
             <img
@@ -136,8 +136,8 @@
               width="270"
               height="260"
             />
-            <h3 class="card_title">John Doe</h3>
-            <p class="card_subtitle">Frontend Developer</p>
+            <h3 class="card__title">John Doe</h3>
+            <p class="card__subtitle">Frontend Developer</p>
           </li>
           <li class="card">
             <img
@@ -146,8 +146,8 @@
               width="270"
               height="260"
             />
-            <h3 class="card_title">John Doe</h3>
-            <p class="card_subtitle">Marketing</p>
+            <h3 class="card__title">John Doe</h3>
+            <p class="card__subtitle">Marketing</p>
           </li>
           <li class="card">
             <img
@@ -156,33 +156,33 @@
               width="270"
               height="260"
             />
-            <h3 class="card_title">John Doe</h3>
-            <p class="card_subtitle">UI Designer</p>
+            <h3 class="card__title">John Doe</h3>
+            <p class="card__subtitle">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer class="footer_background">
+    <footer class="footer__background">
       <a class="logo link" href="WebStudio"
-        >Web<span class="footer_logo">Studio</span></a
+        >Web<span class="footer__logo">Studio</span></a
       >
       <address>
         <ul>
           <li>
             <a
-              class="link footer_place"
+              class="link footer__place"
               href="https://goo.gl/maps/jp3QV2B9B6zz9JZ26"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
           <li>
-            <a class="link footer_address" href=" mailto:info@example.com"
+            <a class="link footer__address" href=" mailto:info@example.com"
               >info@example.com</a
             >
           </li>
           <li>
-            <a class="link footer_address" href="tel:48111111111"
+            <a class="link footer__address" href="tel:48111111111"
               >+48 111 111 111</a
             >
           </li>
