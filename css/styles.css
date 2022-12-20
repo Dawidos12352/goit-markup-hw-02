@@ -22,7 +22,7 @@ ul {
   line-height: 1.19;
   color: var(--active-color);
 }
-.header__logo-color {
+.header__logo {
   color: #000000;
 }
 
